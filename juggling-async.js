@@ -30,6 +30,15 @@ Promise.all(promises).then(results=>{
 
 
 
+
+
+
+
+
+
+
+
+
 /* OFFICIAL SOLUTION
 
 'use strict'
