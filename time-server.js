@@ -5,8 +5,6 @@ const [a,b,port, ...args]=process.argv;
 
 
      const server = net.createServer(function (socket) {  
-        //socket.write(data)
-        //"2013-07-06 17:42" 
         socket.end(strftime('%F %H:%M')+"\n")
      }) 
 

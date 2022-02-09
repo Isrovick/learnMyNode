@@ -23,6 +23,9 @@ const server = http.createServer(function (req, res) {
                 return chunk.toString().toUpperCase();
               })).pipe(res);
     }
+    else{
+        res.end(`{"error": "${http.STATUS_CODES[405]}"}`)
+    }
 
 })  
 
